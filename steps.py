@@ -4,16 +4,13 @@ import pandas as pd
 import scipy.signal as signal
 import matplotlib.pyplot as plt
 
-# URL of the accelerometer data file exported from the Walk4me system
-# This URL is an example of the accelerometer data. Please use the file exported from the Walk4me system.
-DATA_URL = "https://albara.ramli.net/download/xin.liu/dmd/ic/a.csv" 
+# This CSV file serves as an example of accelerometer data. For accurate results, please ensure you are using the file exported from the Walk4me system or refer to the instructions in the accompanying readme file.
+DATA_URL = "a.csv" 
 COLUMNS = ['id','ts_ref','ts_d','ts','x_axis', 'y_axis', 'z_axis']
 
-# Hyperparameters for the filter and orientation signals
-# FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ: These parameters determine the filter levels and cutoff frequency for the accelerometer signal.
-FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ = 30, 0.008, 0.029
-# ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT: These parameters set the orientation levels for distance and height.
-ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT = 1, -1
+# Filter and original signal hyperparameters
+FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ = 30, 0.008, 0.029  # filter levels and cutoff frequency
+ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT = 1, -1  # original signal levels for distance and height
 
 def download_and_prepare_data(url):
     data = pd.read_csv(url,header=None)
