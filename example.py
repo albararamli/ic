@@ -5,7 +5,7 @@ import scipy.signal as signal
 import matplotlib.pyplot as plt
 
 # This CSV file serves as an example of accelerometer data. For accurate results, please ensure you are using the file exported from the Walk4me system or refer to the instructions in the accompanying readme file.
-DATA_URL = "a.csv" 
+DATA_URL = "https://albara.ramli.net/download/xin.liu/dmd/ic/a.csv" 
 COLUMNS = ['id','ts_ref','ts_d','ts','x_axis', 'y_axis', 'z_axis']
 
 # Filter and original signal hyperparameters
