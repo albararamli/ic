@@ -1,37 +1,44 @@
-# Initial Contact (IC) Detection in Accelerometer Signals
+Here's an enhanced and professional version of your repository description:
 
-This repository hosts the code for detecting Initial Contact (IC) events from raw accelerometer signals. The code identifies each step's IC events (visualized as red dots), marks the beginning and end of each step (duration, depicted with gray borders), and estimates the total step count.
+---
 
-## Visualization
-Below are examples demonstrating the input and output from the IC detection process:
+# Initial Contact (IC) Detection from Accelerometer Signals 
 
-Input Signal             
+Welcome to our repository, where we present our code designed to detect Initial Contact (IC) events from raw accelerometer data. This algorithm not only identifies each step's IC events, represented as red dots in our visualizations, but it also accurately marks the beginning and end of each step (duration), depicted with gray borders. Further, it estimates the total count of steps taken. 
+
+## Visual Representation
+
+To help you better understand our process, we've provided illustrations of both the input data and the output of our IC detection below:
+
+**Input Signal**
 :-----------------------:
-![](https://albara.ramli.net/download/xin.liu/dmd/ic/in.png)
+![Input Signal](https://albara.ramli.net/download/xin.liu/dmd/ic/in.png)
 
-Output Signal
+**Output Signal**
 :-----------------------:
-![](https://albara.ramli.net/download/xin.liu/dmd/ic/out.png)
+![Output Signal](https://albara.ramli.net/download/xin.liu/dmd/ic/out.png)
 
 ## Hyperparameters
-This code has several hyperparameters which you can adjust and fine-tune according to your requirements:
+
+Our code comes equipped with several hyperparameters. These are adjustable and can be fine-tuned to meet the specific requirements of your accelerometer data. 
 
 ```python
 # Hyperparameters for the filter and orientation signals
-# FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ: These parameters determine the filter levels and cutoff frequency for the accelerometer signal.
-# ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT: These parameters set the orientation levels for distance and height.
 FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ, ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT = 30, 0.008, 0.029, 1, -1
 ```
-These hyperparameters determine the filtering level for distance and height of the signal, as well as the filter's cutoff frequency. Feel free to experiment with these values to optimize the IC detection for your specific use case. Remember to always validate your results against your ground truth or reference data when adjusting these parameters.
 
-## Citation
-If you utilize this code, kindly reference the following paper:
+The above hyperparameters control the filter level for distance and height of the accelerometer signal, as well as the cutoff frequency of the filter. Experimenting with these parameters might help you optimize the IC detection for your specific needs. However, we strongly recommend validating your results against a ground truth or reference data whenever you adjust these parameters.
+
+## Cite Our Work
+
+We request that if you use our code, please cite the following paper in your work:
 
 - **Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds**\
 Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Chen-Nee Chuah, Erica Goude, Lynea B. Kaethler, Amanda Lopez, Alina Nicorici, Corey Owens, David Rodriguez, Jane Wang, Daniel Aranki, Craig M. McDonald, Erik K. Henricson
 
-## Further Reading
-For an in-depth understanding of the underlying technology and its various applications, consider referring to these research papers:
+## Recommended Reading
+
+For more comprehensive insight into our technology and its various applications, we recommend the following research papers:
 
 - **Gait Characterization in Duchenne Muscular Dystrophy (DMD) Using a Single-Sensor Accelerometer: Classical Machine Learning and Deep Learning Approaches** [[PDF](https://example.com/link_to_second_paper)]\
 Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Erica Goude, Jiahui Hou, Lynea B. Kaethler, Rex Liu, Amanda Lopez, Alina Nicorici, Corey Owens, David Rodriguez, Jane Wang, Huanle Zhang, Daniel Aranki, Craig M. McDonald, Erik K. Henricson
@@ -39,5 +46,6 @@ Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Erica Goude, Jiahui Hou, Lynea 
 - **Walk4Me: Telehealth Community Mobility Assessment, An Automated System for Early Diagnosis and Disease Progression** [[PDF](https://arxiv.org/abs/2305.05543)]\
 Authors: Albara Ah Ramli, Xin Liu, Erik K Henricson
 
-## How to Use
-To leverage this code, clone this repository and install the necessary packages. Run the main Python script to start the IC detection process.
+## Get Started
+
+To utilize our code, simply clone this repository and install the required packages. You're then ready to execute the main Python script to initiate the IC detection process. Enjoy exploring!
