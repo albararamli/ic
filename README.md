@@ -16,12 +16,13 @@ Understanding data and its transformations are crucial. Therefore, we provide vi
 
 ## Data Requirements
 
-Included in this repository is an example CSV file that demonstrates the expected accelerometer data format for this algorithm. For optimal results, use files exported directly from the Walk4Me system.
+This repository includes an example CSV file, 'a.csv,' which demonstrates the expected accelerometer data format for the algorithm. For optimal results, we recommend using files exported directly from the Walk4Me system.
 
-If you're generating your own data file, ensure it adheres to these guidelines:
-- A z_axis column is mandatory, as it represents accelerometer readings along the z-axis.
-- The data rows must be sorted in a chronological order to represent time progression.
-Strict adherence to these standards ensures the successful operation of the IC detection process.
+If you generate your own data file, please adhere to the following guidelines:
+- The presence of a 'z_axis' column is mandatory, as it represents accelerometer readings along the z-axis.
+- Ensure that the data rows are sorted chronologically to accurately reflect the progression of time.
+
+Strict adherence to these standards ensures the seamless operation of the IC detection process, yielding reliable results.
 
 ## Tunable Hyperparameters
 
