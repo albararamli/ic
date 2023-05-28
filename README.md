@@ -13,6 +13,19 @@ Output Signal
 :-----------------------:
 ![](https://albara.ramli.net/download/xin.liu/dmd/ic/out.png)
 
+## Hyperparameters
+This code has several hyperparameters which you can adjust and fine-tune according to your requirements:
+
+```python
+# Define levels and cutoff frequency
+FILTER_LEVEL_DISTANCE = 30
+FILTER_LEVEL_HEIGHT = 0.008
+FILTER_CUTOFF_FREQ = 0.029
+ORI_LEVEL_DISTANCE = 1
+ORI_LEVEL_HEIGHT = -1
+```
+These hyperparameters determine the filtering level for distance and height of the signal, as well as the filter's cutoff frequency. Feel free to experiment with these values to optimize the IC detection for your specific use case. Remember to always validate your results against your ground truth or reference data when adjusting these parameters.
+
 ## Citation
 If you utilize this code, kindly reference the following paper:
 
@@ -29,4 +42,4 @@ Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Erica Goude, Jiahui Hou, Lynea 
 Authors: Albara Ah Ramli, Xin Liu, Erik K Henricson
 
 ## How to Use
-To leverage this code, clone this repository, install the necessary packages, and run the main Python script. Detailed instructions are provided in the README.
+To leverage this code, clone this repository and install the necessary packages. Run the main Python script to start the IC detection process.
