@@ -11,8 +11,9 @@ COLUMNS = ['id','ts_ref','ts_d','ts','x_axis', 'y_axis', 'z_axis']
 
 # Hyperparameters for the filter and orientation signals
 # FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ: These parameters determine the filter levels and cutoff frequency for the accelerometer signal.
+FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ = 30, 0.008, 0.029
 # ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT: These parameters set the orientation levels for distance and height.
-FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ, ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT = 30, 0.008, 0.029, 1, -1
+ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT = 1, -1
 
 def download_and_prepare_data(url):
     data = pd.read_csv(url,header=None)
