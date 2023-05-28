@@ -1,6 +1,6 @@
 # Initial Contact (IC) Detection from Accelerometer Signals 
 
-Welcome to our repository, where we present our code designed to detect Initial Contact (IC) events from raw accelerometer data. This algorithm not only identifies each step's IC events, represented as red dots in our visualizations, but it also accurately marks the beginning and end of each step (duration), depicted with gray borders. Further, it estimates the total count of steps taken. 
+Welcome to our repository, where we present our code designed to detect Initial Contact (IC) events from raw accelerometer data. This algorithm not only identifies each step's IC events, represented as red dots in our visualizations, but it also marks the beginning and end of each step (duration), depicted with gray borders. Further, it estimates the total count of steps taken. 
 
 ## Visual Representation
 
