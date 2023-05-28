@@ -2,6 +2,17 @@
 
 This repository contains code for detecting initial contact (IC) events in raw accelerometer signals. The program identifies IC events for each step, depicted as red dots, determines the start and end of each step (duration), shown by gray borders, and estimates the total number of steps.
 
+## Illustrative Figures
+Here are examples of input and output from the IC detection process:
+
+Input Signal             
+:-----------------------:
+![](https://albara.ramli.net/download/xin.liu/dmd/ic/in.png)
+
+Output Signal
+:-----------------------:
+![](https://albara.ramli.net/download/xin.liu/dmd/ic/out.png)
+
 ## Citation
 If you are using this code, please reference the following papers:
 
