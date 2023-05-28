@@ -17,12 +17,10 @@ Output Signal
 This code has several hyperparameters which you can adjust and fine-tune according to your requirements:
 
 ```python
-# Define levels and cutoff frequency
-FILTER_LEVEL_DISTANCE = 30
-FILTER_LEVEL_HEIGHT = 0.008
-FILTER_CUTOFF_FREQ = 0.029
-ORI_LEVEL_DISTANCE = 1
-ORI_LEVEL_HEIGHT = -1
+# Hyperparameters for the filter and orientation signals
+# FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ: These parameters determine the filter levels and cutoff frequency for the accelerometer signal.
+# ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT: These parameters set the orientation levels for distance and height.
+FILTER_LEVEL_DISTANCE, FILTER_LEVEL_HEIGHT, FILTER_CUTOFF_FREQ, ORI_LEVEL_DISTANCE, ORI_LEVEL_HEIGHT = 30, 0.008, 0.029, 1, -1
 ```
 These hyperparameters determine the filtering level for distance and height of the signal, as well as the filter's cutoff frequency. Feel free to experiment with these values to optimize the IC detection for your specific use case. Remember to always validate your results against your ground truth or reference data when adjusting these parameters.
 
