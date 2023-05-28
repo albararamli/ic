@@ -47,9 +47,9 @@ Cite using bibtex:
 @article{ramli2023,
   author = {Ramli, Albara Ah and Liu, Xin and Berndt, Kelly and Chuah, Chen-Nee and Goude, Erica and Kaethler, Lynea B. and Lopez, Amanda and Nicorici, Alina and Owens, Corey and Rodriguez, David and Wang, Jane and Aranki, Daniel and McDonald, Craig M. and Henricson, Erik K.},
   title = {Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds},
-  journal={Gait & Posture},
+  /*journal={Gait & Posture},
   year={2023},
-  publisher={Elsevier}
+  publisher={Elsevier}*/
 }
 ```
 
