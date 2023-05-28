@@ -37,7 +37,7 @@ While these hyperparameters provide a certain level of control, we highly recomm
 
 ## Acknowledging Our Work
 
-If you find our code useful, we kindly request you to cite our paper in your work:
+If you find our code useful, valuable, or utilize it in any way, we expect that you cite our paper in your work.
 
 - **Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds**\
 Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Chen-Nee Chuah, Erica Goude, Lynea B. Kaethler, Amanda Lopez, Alina Nicorici, Corey Owens, David Rodriguez, Jane Wang, Daniel Aranki, Craig M. McDonald, Erik K. Henricson
