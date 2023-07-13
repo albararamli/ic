@@ -45,9 +45,13 @@ Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Chen-Nee Chuah, Erica Goude, Ly
 
 Cite using bibtex:
 ```bibtex
-@article{ramli2023,
-  author = {Ramli, Albara Ah and Liu, Xin and Berndt, Kelly and Chuah, Chen-Nee and Goude, Erica and Kaethler, Lynea B. and Lopez, Amanda and Nicorici, Alina and Owens, Corey and Rodriguez, David and Wang, Jane and Aranki, Daniel and McDonald, Craig M. and Henricson, Erik K.},
-  title = {Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds}
+@misc{ramli2023automated,
+      title={Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds}, 
+      author={Albara Ah Ramli and Xin Liu and Kelly Berndt and Chen-Nee Chuah and Erica Goude and Lynea B. Kaethler and Amanda Lopez and Alina Nicorici and Corey Owens and David Rodriguez and Jane Wang and Daniel Aranki and Craig M. McDonald and Erik K. Henricson},
+      year={2023},
+      eprint={2307.04866},
+      archivePrefix={arXiv},
+      primaryClass={eess.SP}
 }
 ```
 <!--,
