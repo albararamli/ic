@@ -38,33 +38,45 @@ While these hyperparameters provide a certain level of control, we highly recomm
 
 ## Acknowledging Our Work
 
-If you find our code useful, valuable, or utilize it in any way, we expect that you cite our paper in your work.
+If you find our code useful, valuable, or utilize it in any way, we expect that you cite our papers in your work.
 
-- **Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds** [[PDF](https://arxiv.org/abs/2307.04866)]\
+- **Gait Event Detection and Travel Distance Using Waist-Worn Accelerometers across a Range of Speeds: Automated Approach** [[PDF](https://doi.org/10.3390/s24041155)]\
 Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Chen-Nee Chuah, Erica Goude, Lynea B. Kaethler, Amanda Lopez, Alina Nicorici, Corey Owens, David Rodriguez, Jane Wang, Daniel Aranki, Craig M. McDonald, Erik K. Henricson
 
 Cite using bibtex:
-```bibtex
-@misc{ramli2023automated,
-      title={Automated Detection of Gait Events and Travel Distance Using Waist-worn Accelerometers Across a Typical Range of Walking and Running Speeds}, 
-      author={Albara Ah Ramli and Xin Liu and Kelly Berndt and Chen-Nee Chuah and Erica Goude and Lynea B. Kaethler and Amanda Lopez and Alina Nicorici and Corey Owens and David Rodriguez and Jane Wang and Daniel Aranki and Craig M. McDonald and Erik K. Henricson},
-      year={2023},
-      eprint={2307.04866},
-      archivePrefix={arXiv},
-      primaryClass={eess.SP}
+```
+@article{ramli2024gait1,
+  title={Gait Event Detection and Travel Distance Using Waist-Worn Accelerometers across a Range of Speeds: Automated Approach},
+  author={Ramli, Albara Ah and Liu, Xin and Berndt, Kelly and Chuah, Chen-Nee and Goude, Erica and Kaethler, Lynea B and Lopez, Amanda and Nicorici, Alina and Owens, Corey and Rodriguez, David and others},
+  journal={Sensors},
+  volume={24},
+  number={4},
+  pages={1155},
+  year={2024},
+  publisher={MDPI}
 }
 ```
-<!--,
-  journal={Gait & Posture},
-  year={2023},
-  publisher={Elsevier}-->
+
+- **Gait Characterization in Duchenne Muscular Dystrophy (DMD) Using a Single-Sensor Accelerometer: Classical Machine Learning and Deep Learning Approaches** [[PDF](https://doi.org/10.3390/s24041123)]\
+Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Erica Goude, Jiahui Hou, Lynea B. Kaethler, Rex Liu, Amanda Lopez, Alina Nicorici, Corey Owens, David Rodriguez, Jane Wang, Huanle Zhang, Daniel Aranki, Craig M. McDonald, Erik K. Henricson
+
+Cite using bibtex:
+```
+@article{ramli2024gait2,
+  title={Gait characterization in duchenne muscular dystrophy (DMD) using a single-sensor accelerometer: classical machine learning and deep learning approaches},
+  author={Ramli, Albara Ah and Liu, Xin and Berndt, Kelly and Goude, Erica and Hou, Jiahui and Kaethler, Lynea B and Liu, Rex and Lopez, Amanda and Nicorici, Alina and Owens, Corey and others},
+  journal={Sensors},
+  volume={24},
+  number={4},
+  pages={1123},
+  year={2024},
+  publisher={MDPI}
+}
+```
 
 ## Further Reading
 
-For a comprehensive understanding of our work and its various applications, please refer to the following research papers:
-
-- **Gait Characterization in Duchenne Muscular Dystrophy (DMD) Using a Single-Sensor Accelerometer: Classical Machine Learning and Deep Learning Approaches** [[PDF](https://arxiv.org/abs/2105.06295)]\
-Authors: Albara Ah Ramli, Xin Liu, Kelly Berndt, Erica Goude, Jiahui Hou, Lynea B. Kaethler, Rex Liu, Amanda Lopez, Alina Nicorici, Corey Owens, David Rodriguez, Jane Wang, Huanle Zhang, Daniel Aranki, Craig M. McDonald, Erik K. Henricson
+For a comprehensive understanding of our work and its various applications, please refer to the following research paper:
 
 - **Walk4Me: Telehealth Community Mobility Assessment, An Automated System for Early Diagnosis and Disease Progression** [[PDF](https://arxiv.org/abs/2305.05543)]\
 Authors: Albara Ah Ramli, Xin Liu, Erik K Henricson
